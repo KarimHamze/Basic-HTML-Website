@@ -1,0 +1,225 @@
+body {
+  background-color: #202020;
+  color: white;
+}
+
+header {
+  border: 2px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+}
+
+nav p {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 0 auto;
+  padding-right: 0px;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-title {
+  text-align: center;
+}
+
+main {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+}
+
+aside {
+  text-align: center;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+aside p {
+  background-color: white;
+  color: #202020;
+  border: 2px solid #202020;
+  margin: 0px;
+  padding: 10px;
+}
+
+.main-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-column section {
+  object-fit: fill;
+  padding: auto;
+  padding-bottom: 12px;
+}
+
+main section {
+  border: 2px solid white;
+}
+
+h6 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+section article {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  color: #202020;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 430px) {
+  body {
+    background-color: #202020;
+    font-size: 14px;
+    color: white;
+  }
+
+  header {
+    border: 2px solid white;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: medium;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .header-title {
+    text-align: center;
+  }
+
+  .header-p {
+    color: azure;
+  }
+
+  .main-column {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-items: cover;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: baseline;
+  }
+
+  .main-column {
+    flex-direction: column;
+  }
+
+  aside {
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  aside p {
+    background-color: white;
+    color: #202020;
+    border: 2px solid #202020;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  main section {
+    border: 2px solid white;
+    padding: 10px;
+  }
+
+  h3,
+  h4,
+  h5 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .section-reviews {
+    color: white;
+    background-color: #202020;
+    margin: 0px;
+    border: 2px solid white;
+    text-align: center;
+  }
+
+  .section-reviews h6 {
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .section-reviews article:nth-child(2),
+  article:nth-child(3) {
+    display: none;
+  }
+
+  .section-reviews article {
+    margin: 20px;
+    padding: 10px;
+    text-align: start;
+    background-color: white;
+    color: #202020;
+    border-radius: 25px;
+  }
+
+  footer {
+    border: 2px solid white;
+    text-align: center;
+    font-size: 1em;
+  }
+}
